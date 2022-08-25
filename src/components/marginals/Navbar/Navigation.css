@@ -7,3 +7,9 @@
   box-shadow: 2px 1px 12px 2px #3d9dd9;
 }
 
+.nav-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -39,8 +39,10 @@ function Navigation() {
           <LinkContainer to='/signup' exact>
             <Nav.Link active={false}>Sign Up</Nav.Link>
           </LinkContainer>
+          <Nav.Link>
+            <SearchBar />
+          </Nav.Link>
         </Nav>
-        <SearchBar />
       </Navbar.Collapse>
     </Navbar>
   );

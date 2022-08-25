@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css';
+import '../styles/Contact.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { ImTwitter, ImMail, ImGithub } from 'react-icons/im';
 import { FaGitter } from 'react-icons/fa';

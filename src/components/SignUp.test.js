@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import SignUp from '../index';
+import SignUp from '../pages/SignUp';
 
 test('renders the form correctly', () => {
   const { getByText, getByLabelText } = render(<SignUp />);

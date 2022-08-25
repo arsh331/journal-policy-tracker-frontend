@@ -1,9 +1,9 @@
 import React from 'react';
-import './Navigation.css';
+import '../styles/Navigation.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import Logo from '../../../assets/logo.webp';
-import { SearchBar } from '../index';
+import Logo from '../assets/logo.webp';
+import SearchBar from './Search';
 
 function Navigation() {
   return (
